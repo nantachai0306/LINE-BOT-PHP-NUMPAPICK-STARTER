@@ -1,2 +1,3 @@
 <?php
-echo "Hello LINE BOT123";
+echo "Hello LINE BOT";
+echo "My name is BOTNOII";
