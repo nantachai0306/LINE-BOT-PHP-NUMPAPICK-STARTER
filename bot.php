@@ -1,4 +1,5 @@
 <?php
+ echo "I am a bot";
  require("pub.php");
  require("line.php");
 
