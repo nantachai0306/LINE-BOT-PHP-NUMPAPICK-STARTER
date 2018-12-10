@@ -11,7 +11,7 @@ function send_LINE($msg){
       ];
 
       // Make a POST Request to Messaging API to reply to sender
-      $url = 'https://api.line.me/v1/bot/message/push';
+      $url = 'https://api.line.me/v4/bot/message/push';
       $data = [
 
         'to' => 'e53cd352bb5b77bfb0605c2496d2488c',
@@ -25,7 +25,7 @@ function send_LINE($msg){
       curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
       curl_setopt($ch, CURLOPT_POSTFIELDS, $post);
       curl_setopt($ch, CURLOPT_HTTPHEADER, $headers);
-      curl_setopt($ch, CURLOPT_FOLLOWLOCATION, 1);
+      curl_setopt($ch, CURLOPT_FOLLOWLOCATION, 4);
       $result = curl_exec($ch);
       curl_close($ch);
 
