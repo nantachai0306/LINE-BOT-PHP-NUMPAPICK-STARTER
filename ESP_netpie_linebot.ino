@@ -5,7 +5,7 @@
 const char* ssid     = "TANAWAT."; //change this to your SSID
 const char* password = "tanawatgot2539"; //change this to your PASSWORD
 
-const char* host = "https://guarded-garden-94644.herokuapp.com";//change this to your linebot server ex.http://numpapick-linebot.herokuapp.com/bot.php
+const char* host = "https://guarded-garden-94644.herokuapp.com/bot.php";//change this to your linebot server ex.http://numpapick-linebot.herokuapp.com/bot.php
 #define APPID   "Unbalanced"     //change this to your APPID
 #define KEY     "QEDcjbS7N7EiwdR"     //change this to your KEY
 #define SECRET  "f2K7uf0xTn1aTsM2uicRmP7Oc"     //change this to your SECRET
